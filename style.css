@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+/* navbar overhere */
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+/* page 1 overhere */
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+/* page 2 overhere */
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(22, 190, 190);
+}
+/* page 3 overhere */
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(133, 133, 150);
+}
+/* page 4 overhere */
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 77, 126);
+}
