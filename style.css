@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Jost&family=Koulen&family=Lato:wght@100;300;400&family=Montserrat:wght@300;400;500&family=Orbitron&family=Roboto:ital,wght@1,100&family=Single+Day&family=Titillium+Web&display=swap');
+
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -25,34 +30,84 @@ html,body{
     width: 10px;
     border-radius: 50%;
     background-color: #fff;
+    mix-blend-mode: difference;
 }
 
 .menu{
-    z-index: 999;
+    z-index: 9999;
     position: fixed;
+    right: 0;
     opacity: 0;
     height: 100vh;
     width: 0%;
-    background-color: #333;
+    background-color: #ffffff;
     padding: 2vw 3vw;
+    color: #000;
+     
 
 }
+
+.menu .menu-content{
+    margin-top: 5vw;
+}
+
+.menu .menu-content h1{
+    font-size: 3vw;
+    text-transform: capitalize;
+    line-height: 80px;
+
+}
+
+.menu .zoom:hover{
+    opacity: .3;
+    transform: translateX(40px);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).8s;
+
+}
+
+.menu-close{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+
+}
+
+.menu-close:hover i{
+    rotate: 45deg;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s ;
+}
+
+.menu-button:hover i{
+    rotate: 90deg;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+
 .menu h1{
     font-size: 1.5vw;
     font-weight: 100    ;
 }
 
 #navbar{
+    z-index: 999;
     position: fixed;
     right: 0%;
     height: 70px;
     width: 100%;
-    border-bottom: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2vw;
    
+}
+
+.logo{
+
+font-family: 'Single Day', cursive;
+text-shadow: 1px 1px 2px black;
+
 }
 
 .logo span{
@@ -69,11 +124,32 @@ html,body{
     font-weight: 100;
 }
 
-/* page 1 overhere */
+
 #page1{
     height: 100vh;
     width: 100%;
     background-color: #222;
+
+}
+
+#page1 h1{
+    position: absolute;
+    z-index: 99;
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: right;
+    margin-top: 30vw;
+    margin-right: 2vw;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+#page1 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* page 2 overhere */
 #page2{
@@ -81,6 +157,8 @@ html,body{
     width: 100%;
     background-color: rgb(22, 190, 190);
 }
+
+
 /* page 3 overhere */
 #page3{
     height: 100vh;
