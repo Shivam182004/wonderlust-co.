@@ -1,14 +1,10 @@
-Shery.makeMagnet(".menu-button" , {
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    duration: 1,
-  });
 
 
 function mymenu(){
     let menu = document.querySelector(".menu-button")
 let menuclose = document.querySelector(".menu-close")
 
-menu.addEventListener("click", function(){
+menu.addEventListener("mouseenter", function(){
     gsap.to(".menu",{
         opacity:1,
         width:"50%",
