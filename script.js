@@ -4,10 +4,11 @@ function mymenu(){
     let menu = document.querySelector(".menu-button")
 let menuclose = document.querySelector(".menu-close")
 
-menu.addEventListener("mouseenter", function(){
+menu.addEventListener("click", function(){
     gsap.to(".menu",{
-        opacity:1,
         width:"50%",
+        autoAlpha:1,
+        display:"block",
     })
 
     // gsap.to("#main",{
@@ -17,7 +18,8 @@ menu.addEventListener("mouseenter", function(){
 
 menuclose.addEventListener("click",function(){
     gsap.to(".menu",{
-        opacity:0,
+        autoAlpha:0,
+        display:"none",
         width:"0%"
        
     })
