@@ -31,7 +31,7 @@ html,body{
     z-index: 9999;
     position: fixed;
     right: 0;
-    opacity: 0;
+    display: none;
     height: 100vh;
     width: 0%;
     background-color: #FFFDF8;
@@ -97,28 +97,6 @@ html,body{
    
 }
 
-
-.search-bar{
-    width: 100%;
-    max-width: 200px;
-    background-color: rgba(255, 225, 255, .2) ;
-    display: flex;
-    align-items: center;
-    border-radius: 2px;
-    border: 1px solid #FFFDF8;
-    padding: 8px 20px;
-}
-.search-bar input{
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    font-size: 15px;
-    color: #FFFDF8;
-}
-::placeholder{
-    color: #FFFDF8;
-}
 
 /* #navbar h1{
     font-size: 1.2vw;
