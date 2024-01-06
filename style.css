@@ -149,21 +149,21 @@ html,body{
 }
 
 #page2{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: #FFFDF8;
+    background-color: #2A7C6F;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
 .about{
-    margin-top: 4vw;
+    margin-top: 18vw;
     width: 80%;
     text-align: center;
     background-color: #2A7C6F;
     border-radius: 5px;
-    padding: 4vw 8vw;
+    padding: 8vw 8vw;
     z-index: 99;
 }
 
