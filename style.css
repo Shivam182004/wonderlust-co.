@@ -43,13 +43,16 @@ html,body{
 
 .menu .menu-content{
     margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
 }
 
-.menu .menu-content h1{
+.menu .menu-content a{
     font-size: 3vw;
     text-transform: capitalize;
     line-height: 80px;
-
+    color: #2A7C6F;
+    text-decoration: none;
 }
 
 .menu .zoom:hover{
@@ -149,21 +152,20 @@ html,body{
 }
 
 #page2{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
-    background-color: #2A7C6F;
+    background-color: #FFFDF8;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .about{
-    margin-top: 18vw;
     width: 80%;
     text-align: center;
     background-color: #2A7C6F;
     border-radius: 5px;
-    padding: 8vw 8vw;
+    padding: 4vw 8vw;
     z-index: 99;
 }
 
