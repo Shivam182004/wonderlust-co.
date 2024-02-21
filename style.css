@@ -110,4 +110,65 @@ html,body{
     font-size: 1vw;
 }
 
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #121417;
+    padding: 6vw 10vw;
+}
+
+.page2 h2{
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+.slider{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    height: 60%;
+    width: 24%;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.card h3{
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.card h5{
+    font-weight: 100;
+    color: gray;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #121417;
+    padding: 6vw 10vw;
+}
+
+.page3 .faq{
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page3 h2{
+    margin-bottom: 40px;
+}
+
 
